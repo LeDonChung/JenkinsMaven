@@ -9,5 +9,10 @@ class JenkinsMavenApplicationTests {
     @Test
     void contextLoads() {
     }
+    @Test
+    void testHello() {
+        System.out.println("Hello Jenkins Maven");
+        assert true;
+    }
 
 }
