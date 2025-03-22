@@ -14,4 +14,9 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assert calculator.add(1, 2) == 3;
     }
+
+    @Test
+    void testAdd2() {
+        assert calculator.add(1, 3) == 4;
+    }
 }
